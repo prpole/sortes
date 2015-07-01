@@ -1,0 +1,3 @@
+#!/usr/local/lib/python2.7/
+
+46 09 * * * sh ~/git/sortes/sortes.sh
