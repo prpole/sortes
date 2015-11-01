@@ -18,7 +18,7 @@ api = tweepy.API(auth)
 tokenizer = RegexpTokenizer(r'[\'\w\-]+[.,\'"!?;/]*')
 
 
-with open('/Users/phillippolefrone/git/sortes/aeneid.txt','r') as f:
+with open('/home/phlip/sortes/aeneid.txt','r') as f:
 	text = f.read()
 
 words = tokenizer.tokenize(text)
